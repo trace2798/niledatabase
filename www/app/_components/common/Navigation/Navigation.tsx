@@ -16,7 +16,7 @@ export default function Navigation({ className }: { className?: string }) {
   return (
     <>
       <NavMenu open={open} />
-      <div className={`w-screen sticky top-0 z-30 navBlur ${className ?? ""}`}>
+      <div className={`w-fill sticky top-0 z-30 navBlur ${className ?? ""}`}>
         <div className="flex flex-col lg:items-center justify-between px-4 pb-0 2xl:px-24 container mx-auto">
           <div className="flex flex-row items-center justify-between w-full lg:h-auto h-[76px]">
             <div className="items-center flex lg:block lg:items-start lg:w-44">
